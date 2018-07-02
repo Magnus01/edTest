@@ -1,0 +1,98 @@
+body {
+  background-color: #E7E7E7;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  font-size: x-large;
+  text-align: center;
+  background-color: #555;
+  color: #ddd;
+  padding: 5px;
+  font-family: Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+
+header a {
+  background-color: #ddd;
+  color: #555;
+  text-decoration: none;
+  padding: 0 3px 0 3px;
+}
+
+header a:hover {
+  background-color: #555;
+  color: #ddd;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  background-color: #555;
+  color: #ddd;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+footer a {
+  background-color: #ddd;
+  color: #555;
+  text-decoration: none;
+  padding: 0 3px 0 3px;
+}
+
+footer a:hover {
+  background-color: #555;
+  color: #ddd;
+  text-decoration: underline;
+}
+
+#wheelDiv {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+#wheelDiv>svg {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  #wheelDiv {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  #wheelDiv {
+    height: 300px;
+    width: 300px;
+  }
+}
+#piemenu > svg { width: 600px; height: 600px; }
+#piemenu { height: 400px; width: 400px; margin:auto;  }
+@media (max-width: 400px) { #piemenu { height: 300px; width: 300px; } }
+
+[class|=wheelnav-piemenu-slice-basic] { fill: rgba(245, 250, 255, 0.1); stroke: none; }
+[class|=wheelnav-piemenu-slice-selected] { fill: #3b6ec2; fill-opacity: 0.90; stroke: none; }
+[class|=wheelnav-piemenu-slice-hover] { fill: #3b6ec2;  stroke: none; fill-opacity: 0.5; cursor: pointer; }
+
+[class|=wheelnav-piemenu-title-basic] { fill: #333; stroke: none; }
+[class|=wheelnav-piemenu-title-selected] { fill: #fff; stroke: none; }
+[class|=wheelnav-piemenu-title-hover] { fill: #222; stroke: none; cursor: pointer; }
+[class|=wheelnav-piemenu-title] > tspan { font-family: Impact, Charcoal, sans-serif; font-size: 24px; }
+
+.wheelnav-piemenu-spreader-in,
+.wheelnav-piemenu-spreader-out { fill: #3b6ec2; fill-opacity: 0.9;stroke: #444; stroke-width: 2; cursor: pointer; }
+.wheelnav-piemenu-spreadertitle-in,
+.wheelnav-piemenu-spreadertitle-out { fill: #eee; stroke: #444; cursor: pointer; }
+
+.wheelnav-piemenu-slice { fill: rgba(245, 250, 255, 0.1); stroke: none; }
+.wheelnav-piemenu-slice:active { fill: #3b6ec2; fill-opacity: 0.90; stroke: none; }
+.wheelnav-piemenu-slice:hover { fill: #3b6ec2;  stroke: none; fill-opacity: 0.5; cursor: pointer; }
+
+.SVG_class { position : relative;
+
+}

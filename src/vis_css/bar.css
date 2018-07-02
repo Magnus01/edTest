@@ -1,0 +1,23 @@
+.clustered-stacked-bar-chart-example   {
+    left: 285px;
+    position: absolute;
+    top: -10px;
+}
+
+.vertical-bar-series-red {
+    color: #f24444;
+    fill: #ffffff;
+}
+
+
+.vertical-bar-series-green {
+    color: #12939A;
+    fill: #ffffff;
+}
+
+.ScrollStyle
+{
+    height: 1000vh;
+    max-height: 100%;
+    overflow-y: scroll;
+}

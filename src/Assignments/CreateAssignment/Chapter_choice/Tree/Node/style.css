@@ -1,0 +1,29 @@
+.nodeBase {
+  cursor: pointer;
+  /*stroke: rgba(0, 253, 255, 0.75);*/
+  stroke: rgb(23, 23, 24);
+  /*stroke-width: 0;*/
+}
+
+.leafNodeBase {
+  cursor: pointer;
+  fill: rgb(254, 255, 252);
+  stroke: rgb(23, 24, 25);
+  /*stroke: rgb(4, 250, 253);*/
+  stroke-width: 1;
+}
+
+.nodeNameBase {
+  stroke: rgba(255, 195, 173, 0.75);
+  stroke-width: 1;
+}
+
+.nodeAttributesBase {
+  /*stroke: rgba(0, 0, 0, 0.71);*/
+  stroke-width: 1;
+  font-size: smaller;
+}
+
+
+
+

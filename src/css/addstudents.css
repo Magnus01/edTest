@@ -1,0 +1,16 @@
+.submit-button-2.minus {
+    width: 20px;
+    height: 20px;
+    margin-top: -30px;
+    /*margin-right: -18px;*/
+    margin-left: 41px;
+    padding: 2px 4px -4px;
+    background-image: url('../images/jordan-mcqueen-10434.jpg');
+    /*background-position: 0px 0px;*/
+    background-size: 2880px;
+    box-shadow: 1px 1px 3px 0 #000, 1px 1px 5px 0 #000;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+

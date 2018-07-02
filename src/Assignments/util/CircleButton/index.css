@@ -1,0 +1,44 @@
+.circlebutton {
+    height: 48px;
+    min-width: 48px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    margin-left: 40px;
+    margin-top:-20px;
+    padding-left:20px;
+    border-radius: 20px;
+    width: 140px;
+    max-width:140px;
+
+
+}
+.circlebuttonDIV {
+    display: flex;
+}
+.circlebutton.bg1 {
+    background-image: -webkit-linear-gradient(45deg, #f26c95, #f6da3e);
+    background-image: linear-gradient(45deg, #f26c95, #f6da3e);
+}
+
+.circlebutton.bg2 {
+    background-image: -webkit-linear-gradient(45deg, #4c9ef4, #00dbf2);
+    background-image: linear-gradient(45deg, #4c9ef4, #00dbf2);
+}
+
+.circlebutton.bg3 {
+    background-image: -webkit-linear-gradient(45deg, #41e277, #36f1d0);
+    background-image: linear-gradient(45deg, #41e277, #36f1d0);
+}
+
+.cb-text {
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-weight: 100;
+    min-width: 48px;
+}
+
+.cb-icon {
+    padding-right: 10px;
+    color: #fff8f8;
+}
