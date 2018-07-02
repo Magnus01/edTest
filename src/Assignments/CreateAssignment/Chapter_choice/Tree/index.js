@@ -12,7 +12,7 @@ import './style.css';
 import {connect} from 'react-redux';
 
 
-import {fetchChapterAnalytics, pointf,UserToStore, ChapterToStore,CourseToStore,refreshfetch, Activate} from '../../../../actions/T_User';
+import {fetchChapterAnalytics, pointf,UserToStore, ChapterToStore,CourseToStore,refreshfetch} from '../../../../actions/T_User';
 
 var points;
 class Tree extends React.Component {
@@ -47,10 +47,7 @@ this.setState({ initialRender: false }); // eslint-disable-line
 
 
 componentWillReceiveProps(nextProps) {
-// Clone new data & assign internal properties
 
-// this.props.user.activator > 0 ? this.props.Activate() : null
-// this.props.Activate;
 if (!deepEqual(this.props.data, nextProps.data)) {
 this.setState({
     data: this.assignInternalProperties(clone(nextProps.data)),
@@ -449,7 +446,7 @@ function mapStateToProps(state) {
 
 
 
-export default connect(mapStateToProps, {fetchChapterAnalytics, pointf,ChapterToStore, UserToStore, CourseToStore,refreshfetch,Activate})(Tree);
+export default connect(mapStateToProps, {fetchChapterAnalytics, pointf,ChapterToStore, UserToStore, CourseToStore,refreshfetch})(Tree);
 
 Tree.defaultProps = {
 onClick: undefined,
